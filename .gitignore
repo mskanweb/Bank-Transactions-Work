@@ -1,0 +1,129 @@
+####################################
+# ENV / SECRETS (VERY IMPORTANT)
+####################################
+.env
+.env.*
+!.env.example
+
+####################################
+# NODE / BACKEND
+####################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+####################################
+# BUILD / DIST
+####################################
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+.cache/
+
+####################################
+# FRONTEND (React / Vite / Vue / Next)
+####################################
+coverage/
+.eslintcache
+.stylelintcache
+
+####################################
+# DATABASE
+####################################
+*.sqlite
+*.sqlite3
+*.db
+dump.sql
+mongo-data/
+mongodb-data/
+
+####################################
+# LOG FILES
+####################################
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+####################################
+# UPLOADS / GENERATED FILES
+####################################
+uploads/
+public/uploads/
+tmp/
+temp/
+
+####################################
+# 3D / THREE.JS / ASSETS
+####################################
+*.blend
+*.fbx
+*.glb
+*.gltf
+*.obj
+*.mtl
+*.hdr
+*.exr
+*.psd
+*.ai
+
+####################################
+# TESTING
+####################################
+coverage/
+.nyc_output/
+
+####################################
+# OS FILES
+####################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+####################################
+# EDITORS / IDE
+####################################
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+####################################
+# GIT
+####################################
+.git/
+.gitignore.bak
+
+####################################
+# DOCKER
+####################################
+docker-data/
+docker-volumes/
+*.tar
+
+####################################
+# CI / CACHE
+####################################
+.cache/
+.parcel-cache/
+.turbo/
+
+####################################
+# MISC
+####################################
+*.bak
+*.tmp
+*.swp
